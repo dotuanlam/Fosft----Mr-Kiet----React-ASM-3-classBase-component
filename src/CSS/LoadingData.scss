@@ -1,0 +1,14 @@
+.loading{
+    margin: 10vh auto;
+    width: 77%;
+    height: 45vh;
+    border-radius: 84vh;
+    border-left: 10px solid #f44336 ;
+    border-right: 10px solid #f44336 ;
+   animation: spinner 1s infinite linear;
+}
+@keyframes spinner{
+    to{
+        transform: rotate(360deg);
+    }
+}
